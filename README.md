@@ -59,7 +59,20 @@ In this tutorial, we want to run a docker container from an image NGINX <br>
 **Let's go :**
 > 1. In the working directory, create a file called main.tf and paste the following Terraform configuration into it. <br>
 > 2. Initialize the project, which downloads a plugin called a provider that lets Terraform interact with Docker. <br>
+
+![Capture d’écran 2024-09-07 182240](https://github.com/user-attachments/assets/948f4067-d8ed-4893-9872-f5bffed858f2)
+
 > 3. Provision the NGINX server container with apply. When Terraform asks you to confirm type yes and press ENTER. <br>
+
+![Capture d’écran 2024-09-07 182805](https://github.com/user-attachments/assets/25a95b38-ab2f-41ab-a410-b6851d915cba)
+
 > 4. Verify the existence of the NGINX container by visiting localhost:8000 in your web browser or running docker ps to see the container. <br>
+
+![Capture d’écran 2024-09-07 182943](https://github.com/user-attachments/assets/d015a315-b724-48c9-9659-65b7cd6363d2)
+![Capture d’écran 2024-09-07 183036](https://github.com/user-attachments/assets/e85c36f0-2e7d-4614-b910-483525fde229)
+
 > 5. To stop the container, run terraform destroy. <br>
+
+![Capture d’écran 2024-09-07 183303](https://github.com/user-attachments/assets/7dbd848e-5e4f-411c-9759-7dbee5d8bed5)
+![Capture d’écran 2024-09-07 183356](https://github.com/user-attachments/assets/058ba56d-1876-4453-a81d-c2bf9566fd1b)
 
