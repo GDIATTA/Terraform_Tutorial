@@ -129,7 +129,7 @@ Validate your configuration. The example configuration provided above is valid, 
 > 5. Create infrastructure : <br>
 Apply the configuration now with the terraform apply command. Terraform will print output similar to what is shown below. We have truncated some of the output for brevity. <br>
 
-![Capture d’écran 2024-09-09 014251](https://github.com/user-attachments/assets/428a5599-cbcb-4180-989d-c493766945c7)
+![Capture d’écran 2024-09-09 020935](https://github.com/user-attachments/assets/f3e73a49-3825-41c7-bb43-0ad4e32ec062)
 
 > 6. Inspect state : <br>
 When you applied your configuration, Terraform wrote data into a file called terraform.tfstate. Terraform stores the IDs and properties of the resources it manages in this file, so that it can update or destroy those resources going forward. <br>
@@ -137,3 +137,9 @@ The Terraform state file is the only way Terraform can track which resources it 
 Inspect the current state using terraform show. <br>
 
 ![Capture d’écran 2024-09-09 015148](https://github.com/user-attachments/assets/03377368-9a56-4dd0-9a2b-68863c9a662f)
+![Capture d’écran 2024-09-09 021128](https://github.com/user-attachments/assets/a2316202-c28d-4223-8f28-ded4d3576cda)
+
+> 7. run terraform destroy : <br>
+
+![Capture d’écran 2024-09-09 021433](https://github.com/user-attachments/assets/ec643824-d886-439f-9434-736f29898db3)
+![Capture d’écran 2024-09-09 021503](https://github.com/user-attachments/assets/d4a77af6-e104-44a8-8117-276211baf062)
